@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Icons+Outlined');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --fontStyle : 'Noto Sans', sans-serif;
+    --font1:'Poppins', sans-serif;
+    --font2: 'Quicksand', sans-serif;
+}
+.post-container{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 
+    2%;
+}
+.box-container{
+    width: 95%;
+    position: relative;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 0 RGB(43 80 237 / 20%);
+    border: 1px solid rgba(85, 85, 85, 0.158);
+}
+.title{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(43, 43, 43);
+    padding: 5px 5px;
+    width: 60%;
+    background: rgba(85, 85, 85, 0.219);
+    border-left: 2px solid #555;
+    margin-bottom: 2%;
+}
+.myform{
+    position: relative;
+    width: 100%;
+    height: auto;
+    line-height: 2.6em;
+}
+.form input{
+    position: relative;
+    width: 100%;
+    
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 0 RGB(43 80 237 / 20%);
+    padding: 13px;
+    border: 1px solid rgba(85, 85, 85, 0.121);
+}
+.form label{
+    font-family:'Quicksand', sans-serif ;
+    font-size: 15px;
+    color: #555;
+}
+.form .btn{
+    width: 100%;
+    margin-top: 4%;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 13px;
+    color: #fff;
+    box-shadow: 0 2px 2px 0 RGB(43 80 237 / 20%);
+    font-family: 'Poppins', sans-serif; 
+    background-color: #262626;
+    border: 1px solid rgba(85, 85, 85, 0.108);
+}
+.form .btn-light{
+    width: 100%;
+    cursor: pointer;
+    margin-top: 4%;
+    border-radius: 5px;
+    padding: 13px;
+    color: #555;
+    box-shadow: 0 2px 2px 0 RGB(43 80 237 / 20%);
+    font-family: 'Poppins', sans-serif; 
+    background-color: #ffffff;
+    border: 1px solid rgba(85, 85, 85, 0.108);
+}

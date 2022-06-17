@@ -1,0 +1,7 @@
+<div class="container">
+    <app-header></app-header>
+     <app-text-display text="Post Complains"></app-text-display>
+     <app-complain-list *ngFor="let post of posts" [post]="post" ></app-complain-list>
+    <span class="createPost" routerLink="/post"><i class="material-symbols-outlined">add</i></span>
+</div>
+

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Icons+Outlined');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --fontStyle : 'Noto Sans', sans-serif;
+    --font1:'Poppins', sans-serif;
+    --font2: 'Quicksand', sans-serif;
+}
+.creatAnswer{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.myform{
+  display: flex;
+  padding: 10px;
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+  background-color: rgba(137, 136, 136, 0.162);
+  position: relative;
+}
+.myform .input{
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+.myform button{
+    background-color: transparent;
+    color: orange;
+    outline: none;
+    border: none;
+}
+
+.footer{
+    margin-top: 2%;
+    padding: 5px;
+    color: rgb(73, 72, 72);
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.footer span{
+    padding-right: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border-right: 1px solid rgba(85, 85, 85, 0.26);
+}
+.content-complain h4{
+    font-family:  'Quicksand', sans-serif;
+    color: rgba(34, 33, 33, 0.789);
+    line-height: 1.8em;
+    font-size: 14px;
+}
+.content-complain{
+    background-color: rgba(221, 221, 221, 0.085);
+    width: 100%;
+    border-bottom: 1px solid rgba(85, 85, 85, 0.088);
+    height: auto;
+    padding: 7px;
+}
+.user-profile span{
+    font-family:'Quicksand', sans-serif ;
+    font-size: 13px;
+    color: #555;
+}
+.user-profile{
+    padding: 5px;
+}
+.user-profile h3{
+    font-family:'Poppins', sans-serif;
+    font-size: 15px;
+    color: rgb(35, 35, 35);
+}
+.list-container{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+
+}
+.box-container{
+    padding: 10px;
+    margin-top: 1%;
+    border-radius: 5px;
+    width: 95%;
+    border: 1px solid rgba(85, 85, 85, 0.118);
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    box-shadow: 0 2px 2px 0 RGB(43 80 237 / 20%);
+}
+.flex-info{
+    margin-bottom: 2%;
+    position: relative;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    width: 100%;
+}
+#arrowback{
+    font-size: 18px;
+    color: #555;
+    cursor: pointer;
+    
+}
+.img-user{
+   width: 40px;
+   height: 40px;
+}
+.img-user img{
+    width: 40px;
+   height: 40px;
+   border-radius: 50%;
+}
+
+@media only screen and (min-width: 1000px) {
+    .box-container{
+        width: 70%;
+    }
+}

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Icons+Outlined');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --fontStyle : 'Noto Sans', sans-serif;
+    --font1:'Poppins', sans-serif;
+    --font2: 'Quicksand', sans-serif;
+}
+.text-container{
+    width: 100%;
+    position: relative;
+    height: auto;
+    margin-top: 2%;
+}
+.text-container h3{
+    padding: 5px;
+    width: 50%;
+    font-family:'Poppins', sans-serif ;
+    background-color: rgba(85, 85, 85, 0.141);
+    border-left: 4px solid #555;
+}
+@media only screen and (min-width: 1000px) {
+    .text-container h3{
+        width: 30%;
+    }
+    .text-container{
+        margin-left: 15%;
+    }
+}

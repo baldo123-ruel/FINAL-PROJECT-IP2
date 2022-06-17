@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Icons+Outlined');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --fontStyle : 'Noto Sans', sans-serif;
+    --font1:'Poppins', sans-serif;
+    --font2: 'Quicksand', sans-serif;
+}
+.header-coontainer{
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    width: 70%;
+    padding: 4px;
+}
+.logo h4{
+    font-family:'Poppins', sans-serif ;
+    font-size: 15px;
+    color: rgb(43, 43, 43);
+}
+.user-info{
+    display: flex;
+    align-items: center;
+    width: auto;
+    cursor: pointer;
+    position: relative;
+}
+.user-info h4{
+    font-family:'Quicksand', sans-serif ;
+    font-size: 14px;
+    color: #555;
+}
+.user-info span{
+    cursor: pointer;
+    font-size: 19px;
+    color: rgba(85, 85, 85, 0.351);
+}
+@media only screen and (min-width: 1000px) {
+   .header-coontainer{
+      background-color: #e69329;
+      color:#fff;
+      padding: 20px;
+   }
+   .logo h4{
+      color: rgb(250, 250, 250);
+    }
+    .user-info h4{
+        
+        color: rgb(255, 255, 255);
+    }
+    .user-info span{
+        
+        color: rgba(255, 255, 255, 0.351);
+    }
+}
