@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {ClientModule} from './Complainmodules/ClientSide/clientmodule/client-module';
-
+import { NgToastModule } from 'ng-angular-popup';
 
 
 @NgModule({
@@ -18,6 +18,7 @@ import {ClientModule} from './Complainmodules/ClientSide/clientmodule/client-mod
    ClientModule,
     BrowserModule,
     AppRoutingModule,
+    NgToastModule
  
    
   ],
