@@ -1,0 +1,48 @@
+
+	<div class="container">
+		<div class="box">
+			<input type="checkbox" id="toggle" class="box__toggle" hidden>
+			<img src="https://scontent.fceb1-1.fna.fbcdn.net/v/t1.15752-9/286818465_719989345905512_5075737337446543726_n.png?_nc_cat=107&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGMOZ70xLRA6Pdvq7CwHyGfEmmikpI82GYSaaKSkjzYZgK8iWg0WbJnAo2GtowiYg6bQpIDdBG7hafBYMv9jVz4&_nc_ohc=MtFDkTD22S0AX90-N2Y&_nc_ht=scontent.fceb1-1.fna&oh=03_AVLs0aqG-dGqjqnggqnGkHNk2wsNJZhFvme2dwvOQ3Jf3g&oe=62D0A03E" alt="Picture by Autumn Studio" class="box__image">
+			<form class="form form--register" action="">
+				<h1 class="form__title">Sign up</h1>
+
+				<div class="form__helper">
+					<input type="email" name="email" id="email" placeholder="Email" class="form__input" />
+					<label class="form__label" for="email">Email Address</label>
+				</div>
+
+				<div class="form__helper">
+					<input type="password" name="password" id="new-user-password" placeholder="Password" class="form__input" />
+					<label class="form__label" for="new-user-password">Password</label>
+				</div>
+
+				<div class="form__helper">
+					<input type="password" name="password" id="confirm-password" Placeholder="Confirm password" class="form__input" />
+					<label class="form__label" for="confirm-password">Re-Type Password</label>
+				</div>
+
+				<button type="submit" class="form__button">Register</button>
+
+				<p class="form__text">Already have an account? <label for="toggle" class="form__link">Sign in!</label>
+			</form>
+
+			<form class="form form--login" action="">
+				<h1 class="form__title">Sign in</h1>
+
+				<div class="form__helper">
+					<input type="text" name="user" id="user" placeholder="User" class="form__input" />
+					<label class="form__label" for="user">Email Address</label>
+				</div>
+
+				<div class="form__helper">
+					<input type="password" name="password" id="password" placeholder="Password" class="form__input" />
+					<label class="form__label" for="password">Password</label>
+				</div>
+
+				<button type="submit" class="form__button">Login</button>
+
+				<p class="form__text">Don't have an account? <label for="toggle" class="form__link">Sign up!</label>
+			</form>
+		</div>
+	</div>
+

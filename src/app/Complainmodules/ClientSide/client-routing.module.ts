@@ -4,11 +4,12 @@ import { RouterModule, Routes } from '@angular/router';
 import {HomeComponent} from './pages/home/home.component';
 import {ComplainURLComponent} from './pages/complain-url/complain-url.component';
 import {PostComponent} from './pages/post/post.component';
-
+import { LoginSignupComponent } from './pages/login-signup/login-signup.component';
 
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
+
+  { path: '', component: LoginSignupComponent },
    { path:'complain' ,component:ComplainURLComponent},
    { path:'post' ,component:PostComponent}
 ];
