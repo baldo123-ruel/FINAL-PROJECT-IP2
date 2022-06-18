@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {ToastServiceService} from '../../services/toast-service.service';
 
 @Component({
   selector: 'app-header',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
-
+  constructor(private msg: ToastServiceService) { }
+  
   ngOnInit(): void {
+     
+  } 
+  isLoggined() {
+    this.msg.getWarning();
   }
-
 }
+
+

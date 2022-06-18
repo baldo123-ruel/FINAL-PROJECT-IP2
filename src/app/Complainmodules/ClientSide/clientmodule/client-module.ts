@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+
 import {FormsModule} from '@angular/forms'
+
 import {ComplainListComponent} from '../components/complain-list/complain-list.component';
 import {CreatepostComponent} from '../components/createpost/createpost.component';
 import {FooterComponent} from '../components/footer/footer.component';
@@ -12,6 +14,7 @@ import {HomeComponent} from '../pages/home/home.component';
 import {PostComponent} from '../pages/post/post.component';
 import {ClientRoutingModule} from '../client-routing.module';
 import {SuggestionsComponent} from '../components/suggestions/suggestions.component';
+
 
 
 
@@ -32,7 +35,9 @@ import {SuggestionsComponent} from '../components/suggestions/suggestions.compon
   imports: [
    CommonModule,
    ClientRoutingModule,
+
    FormsModule
+
   ]
 })
 export class ClientModule { }
