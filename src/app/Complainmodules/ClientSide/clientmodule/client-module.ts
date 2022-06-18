@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 
 import {HttpClientModule} from '@angular/common/http';
 
+import {FormsModule} from '@angular/forms'
+
 import {ComplainListComponent} from '../components/complain-list/complain-list.component';
 import {CreatepostComponent} from '../components/createpost/createpost.component';
 import {FooterComponent} from '../components/footer/footer.component';
@@ -36,6 +38,8 @@ import {SuggestionsComponent} from '../components/suggestions/suggestions.compon
    CommonModule,
    ClientRoutingModule,
    HttpClientModule
+
+   FormsModule
 
   ]
 })
