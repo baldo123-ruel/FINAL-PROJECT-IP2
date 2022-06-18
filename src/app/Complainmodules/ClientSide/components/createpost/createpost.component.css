@@ -74,6 +74,18 @@
     background-color: #262626;
     border: 1px solid rgba(85, 85, 85, 0.108);
 }
+.form .btn-disabled{
+    width: 100%;
+    margin-top: 4%;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 13px;
+    color: #fff;
+    box-shadow: 0 2px 2px 0 RGB(43 80 237 / 20%);
+    font-family: 'Poppins', sans-serif; 
+    background-color: #909090;
+    border: 1px solid rgba(85, 85, 85, 0.108);
+}
 .form .btn-light{
     width: 100%;
     cursor: pointer;
@@ -85,4 +97,35 @@
     font-family: 'Poppins', sans-serif; 
     background-color: #ffffff;
     border: 1px solid rgba(85, 85, 85, 0.108);
+}
+.btn:invalid{
+    background-color: #fff;
+}
+.alert{
+    color: rgb(234, 56, 56);
+    font-family:'Quicksand', sans-serif ;
+    padding-left: 9px;
+    font-size: 14px;
+}
+@media only screen and (min-width: 1000px) {
+   .box-container {
+     width: 50%;
+     padding: 30px;
+   }
+   .form .btn{
+     background: #e69329;
+   }
+   .title{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(43, 43, 43);
+    padding: 5px 5px;
+    width: 60%;
+    background: #e694297d;
+    border-left: 4px solid #e69329;
+    margin-bottom: 2%;
+   }
+   .form .btn-disabled{
+      background: #e69429a1;
+  }
+
 }

@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import {FormsModule} from '@angular/forms'
 
 import {ComplainListComponent} from '../components/complain-list/complain-list.component';
 import {CreatepostComponent} from '../components/createpost/createpost.component';
@@ -34,6 +35,8 @@ import {SuggestionsComponent} from '../components/suggestions/suggestions.compon
   imports: [
    CommonModule,
    ClientRoutingModule,
+
+   FormsModule
 
   ]
 })

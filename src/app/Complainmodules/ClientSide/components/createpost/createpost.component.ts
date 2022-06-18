@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-createpost',
@@ -6,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./createpost.component.css']
 })
 export class CreatepostComponent implements OnInit {
-
+ 
   constructor() { }
 
   ngOnInit(): void {
   }
-
+  onSubmit(form: NgForm){
+     console.log(form.value);
+  }
 }
