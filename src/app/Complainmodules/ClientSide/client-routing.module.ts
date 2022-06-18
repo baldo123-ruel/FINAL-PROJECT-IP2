@@ -9,7 +9,9 @@ import { LoginSignupComponent } from './pages/login-signup/login-signup.componen
 
 const routes: Routes = [
 
-  { path: '', component: LoginSignupComponent },
+   { path: '', component: HomeComponent },
+   { path:'complain/:postid' ,component:ComplainURLComponent},
+   { path: 'login', component: LoginSignupComponent },
    { path:'complain' ,component:ComplainURLComponent},
    { path:'post' ,component:PostComponent}
 ];
