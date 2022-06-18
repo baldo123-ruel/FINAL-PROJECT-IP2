@@ -1,5 +1,7 @@
-import { Component, OnInit  , Input} from '@angular/core';
+import { Component, OnInit  , Input , Output , EventEmitter} from '@angular/core';
 import {Post} from '../../post';
+
+
 
 @Component({
   selector: 'app-complain-list',
@@ -7,11 +9,19 @@ import {Post} from '../../post';
   styleUrls: ['./complain-list.component.css']
 })
 export class ComplainListComponent implements OnInit {
-  @Input()
-  post!: Post;
-  constructor() { }
+  @Input()  post!: Post;
+  @Output() viewSpecific: EventEmitter<Post> = new EventEmitter();
+  
+  constructor(){
+    }
 
   ngOnInit(): void {
+    
   }
-
+  getPost(Data: any){
+     this.viewSpecific.emit(Data);
+  }
+  
+  
+  
 }

@@ -8,8 +8,8 @@ import {PostComponent} from './pages/post/post.component';
 
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
-   { path:'complain' ,component:ComplainURLComponent},
+   { path: '', component: HomeComponent },
+   { path:'complain/:postid' ,component:ComplainURLComponent},
    { path:'post' ,component:PostComponent}
 ];
 

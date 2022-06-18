@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import {HttpClientModule} from '@angular/common/http';
 
 import {ComplainListComponent} from '../components/complain-list/complain-list.component';
 import {CreatepostComponent} from '../components/createpost/createpost.component';
@@ -34,6 +35,7 @@ import {SuggestionsComponent} from '../components/suggestions/suggestions.compon
   imports: [
    CommonModule,
    ClientRoutingModule,
+   HttpClientModule
 
   ]
 })

@@ -1,0 +1,67 @@
+{
+    "users":[
+        {
+            "id": 1,
+            "email": "bebebaldo75@gmail.com",
+            "password": "1234",
+            "username": "Ruel Baldo"
+        },
+        {
+            "id": 1,
+            "email": "bebebaldo76@gmail.com",
+            "password": "1234",
+            "username": "Barozo Benjie"
+        },
+        {
+            "id": 1,
+            "email": "bebebaldo77@gmail.com",
+            "password": "1234",
+            "username": "Myra Moralita"
+        }
+    ],
+    "posts": [
+        {
+            "id":1,
+            "userid":1,
+            "username": "Ruel Baldo",
+            "complainText": "Paano Mag Enroll ha evsu? Kai ano niyu ako giN INC ",
+            "date": "june 20 2022",
+            "gender": "male"
+        },
+        {
+            "id":2,
+            "userid":2,
+            "username": "Barozo Benjie",
+            "complainText": "Dre ako maaram kon hino ka",
+            "date": "june 20 2022",
+            "gender":"male"
+        },
+        {
+            "id":3,
+            "userid":3,
+            "username": "Myra Moralita",
+            "complainText": "Anp pot akon pwede himuon nga pama agi para dirik bayaan?",
+            "date": "june 20 2022",
+            "gender":"female"
+        }
+    ],
+    "comments": [
+        {
+            "commentID": 1,
+            "postID": 1,
+            "userID": 2,
+            "touser": 2,
+            "text": "Pakadto tim uyab bis ka tagan hin advice",
+            "data": "june 03 2022"
+        },
+        {
+            "commentID": 1,
+            "postID": 1,
+            "userID": 2,
+            "touser": 3,
+            "text": "Ikaw pakadto dre kaman putol eh",
+            "data": "june 03 2022"
+        }
+    ]
+    
+}
