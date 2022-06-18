@@ -37,8 +37,7 @@ import {SuggestionsComponent} from '../components/suggestions/suggestions.compon
   imports: [
    CommonModule,
    ClientRoutingModule,
-   HttpClientModule
-
+   HttpClientModule,
    FormsModule
 
   ]
