@@ -4,9 +4,18 @@
     </div>
 
     <div class="user-info" >
-        <h4 (click)="isLoggined()">Account</h4>
-        <span class="material-symbols-outlined">
-            arrow_drop_down
-        </span>
+        
+        
+        <button mat-button [matMenuTriggerFor]="toggle">
+            {{currentUser.username}} 
+            <span class="material-symbols-outlined">
+                arrow_drop_down
+            </span>
+        </button>
+        <mat-menu #toggle="matMenu" xPosition="before">
+           <button class="btn" mat-menu-item (click)="logout()"><span class="material-symbols-outlined">logout</span> Logout</button>
+           <button class="btn" mat-menu-item routerLink="/post"><span class="material-symbols-outlined">add</span> Create Post</button>
+        </mat-menu>
     </div>
+    
 </div>

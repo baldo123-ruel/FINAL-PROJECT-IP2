@@ -13,6 +13,9 @@
     --font1:'Poppins', sans-serif;
     --font2: 'Quicksand', sans-serif;
 }
+#send{
+    cursor: pointer;
+}
 .creatAnswer{
     position: relative;
     width: 100%;
@@ -47,7 +50,8 @@
     position: relative;
     width: 100%;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: left;
     gap: 1rem;
 }
 .footer span{

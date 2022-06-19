@@ -8,10 +8,13 @@ export class ToastServiceService {
   
   constructor(private toast: NgToastService) { }
 
-  getSuccess() {
-     this.toast.success({detail: "Successfully Post Compains", summary: "You can interact from your post replies!"});
+  getSuccess(detail: any , summary: any) {
+     this.toast.success({detail: detail, summary: summary});
   }
-  getWarning() {
-    this.toast.warning({detail: "Login First", summary: "Feel free to sign-up"});
+  getWarning(detail?: any , summary?: any) {
+    this.toast.warning({detail: detail, summary: summary});
  }
+  getSignupMsgSuccess(){
+    this.toast.success({detail: "Signup Successfully", summary: "You may now login"});
+  }
 }

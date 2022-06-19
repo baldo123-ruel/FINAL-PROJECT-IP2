@@ -1,7 +1,8 @@
 export interface Post {
    id?:number,
    username: string,
-   complainText: string,
+   text: string,
+   userid: number,
    date: string,
    gender: string;
 }

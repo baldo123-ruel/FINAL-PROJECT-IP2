@@ -17,6 +17,8 @@ import {PostComponent} from '../pages/post/post.component';
 import {ClientRoutingModule} from '../client-routing.module';
 import {SuggestionsComponent} from '../components/suggestions/suggestions.component';
 
+import {MatButtonModule} from '@angular/material/button';
+import {MatMenuModule} from '@angular/material/menu';
 
 
 
@@ -31,14 +33,17 @@ import {SuggestionsComponent} from '../components/suggestions/suggestions.compon
     ComplainURLComponent,
     HomeComponent,
     PostComponent,
-    SuggestionsComponent
+    SuggestionsComponent,
+  
      
   ],
   imports: [
    CommonModule,
    ClientRoutingModule,
    HttpClientModule,
-   FormsModule
+   FormsModule,
+   MatMenuModule,
+   MatButtonModule
 
   ]
 })
