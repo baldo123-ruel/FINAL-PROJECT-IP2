@@ -10,15 +10,18 @@ import { Router } from '@angular/router';
 })
 export class HomeComponent implements OnInit {
   posts: Post[] = [];
+ 
   constructor(private route: Router,private postservice: PostServiceService) { }
 
   ngOnInit(): void {
      this.postservice.getPost().subscribe((posts) => this.posts = posts);
+
   }
  
   view(post: Post){
     this.route.navigate(['/complain/', post.id]);
   }
+ 
   
 
 }

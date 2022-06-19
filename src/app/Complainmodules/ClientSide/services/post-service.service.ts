@@ -22,6 +22,9 @@ export class PostServiceService {
     const url = `${this.url}/${id}`;
     return this.http.get<Post[]>(url);
   }
+  AddPost(Data: any): Observable <Post[]> {
+    return this.http.post<Post[]>(this.url, Data);
+  }
   
   
   

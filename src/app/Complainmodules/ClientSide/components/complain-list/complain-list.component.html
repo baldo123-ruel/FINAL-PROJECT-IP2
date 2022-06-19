@@ -13,12 +13,12 @@
             </div>
         </div>
         <div class="content-complain">
-            <h4>{{ post.complainText }}</h4>
+            <h4>{{ post.text }}</h4>
         </div>
         <div class="footer">
             <span class="material-symbols-outlined" id="fav">favorite</span>
             <span class="material-symbols-outlined" (click)="getPost(post)" id="visi">visibility</span>
-            <span class="material-symbols-outlined" id="del">delete</span>
+            <span class="material-symbols-outlined" *ngIf="post.userid == currentUser.id" id="del">delete</span>
         </div>
     </div>
 </div>
