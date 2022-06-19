@@ -25,6 +25,10 @@ export class PostServiceService {
   AddPost(Data: any): Observable <Post[]> {
     return this.http.post<Post[]>(this.url, Data);
   }
+  DeletePost(post: Post): Observable<Post>{
+     const urls = `${this.url}/${post.id}`;
+     return this.http.delete<Post>(urls);
+  }
   
   
   

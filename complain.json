@@ -13,68 +13,15 @@
       "email": "moralita@gmail.com",
       "password": "1234",
       "id": 2
-    }
-  ],
-  "posts": [
-    {
-      "userid": 1,
-      "username": "Ruel Baldo",
-      "date": "19-6-2022",
-      "gender": "male",
-      "text": "Paano mag comply for INC ASAP!",
-      "userType": "Student",
-      "id": 1
     },
     {
-      "userid": 2,
-      "username": "Myra Moralita",
-      "date": "19-6-2022",
-      "gender": "female",
-      "text": "Paano mag enrool ha evsu?",
-      "userType": "Student",
-      "id": 2
-    }
-  ],
-  "comments": [
-    {
-      "username": "Ruel Baldo",
-      "textComment": "Pakadto kun diin ka masaya na hiya haiba hahaha",
-      "userid": 1,
-      "date": "19-6-2022",
-      "postid": 2,
-      "usertype": "Student",
+      "username": "Ruel",
       "gender": "male",
-      "id": 1
-    },
-    {
-      "username": "Ruel Baldo",
-      "textComment": "Joke la",
-      "userid": 1,
-      "date": "19-6-2022",
-      "postid": 2,
-      "usertype": "Student",
-      "gender": "male",
-      "id": 2
-    },
-    {
-      "username": "Myra Moralita",
-      "textComment": "pakadto ha saso ngan pag yakan ma stop naak pag skuyla haha",
-      "userid": 2,
-      "date": "19-6-2022",
-      "postid": 2,
-      "usertype": "Student",
-      "gender": "female",
+      "email": "bebebaldo75@gmail.com",
+      "password": "1234",
       "id": 3
-    },
-    {
-      "username": "Myra Moralita",
-      "textComment": "sd",
-      "userid": 2,
-      "date": "19-6-2022",
-      "postid": 2,
-      "usertype": "Student",
-      "gender": "female",
-      "id": 4
     }
-  ]
+  ],
+  "posts": [],
+  "comments": []
 }

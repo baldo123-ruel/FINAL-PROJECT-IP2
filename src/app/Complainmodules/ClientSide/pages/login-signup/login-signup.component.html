@@ -47,7 +47,7 @@
 				
 				</div>
  
-                <button type="submit" class="form__buttondes" *ngIf="form.invalid">Register</button>
+                <button disabled class="form__buttondes" *ngIf="form.invalid">Register</button>
 				<button type="submit" class="form__button"    *ngIf="form.valid">Register</button>
 
 				<p class="form__text">Already have an account? <label for="toggle" class="form__link">Sign in!</label>
@@ -71,7 +71,7 @@
 					  type="password" name="password" id="password" placeholder="Password" class="form__input" />
 					<label class="form__label" for="password">Password</label>
 				</div>
-                <button type="submit" class="form__buttondes" *ngIf="login.invalid">Login</button>
+                <button disabled class="form__buttondes" *ngIf="login.invalid">Login</button>
 				<button type="submit" class="form__button"    *ngIf="login.valid">Login</button>
 
 				<p class="form__text">Don't have an account? <label for="toggle" class="form__link">Sign up!</label>
