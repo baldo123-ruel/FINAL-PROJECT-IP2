@@ -2,7 +2,10 @@
         
      <app-header></app-header>
      <app-text-display text="Post Complains"></app-text-display>
-     <app-complain-list (viewSpecific)="view(post)" *ngFor="let post of posts" [post]="post"></app-complain-list>
+     <app-complain-list 
+     (viewSpecific)="view(post)"
+     (DeletePost)="Delete(post)" 
+     *ngFor="let post of posts" [post]="post"></app-complain-list>
    
 </div>
 

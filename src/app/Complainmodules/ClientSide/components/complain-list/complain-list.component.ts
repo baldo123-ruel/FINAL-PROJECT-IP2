@@ -10,6 +10,7 @@ export class ComplainListComponent implements OnInit {
   @Input()  post!: Post;
   currentUser: any;
   @Output() viewSpecific: EventEmitter<Post> = new EventEmitter();
+  @Output() DeletePost: EventEmitter<Post> = new EventEmitter();
   
   constructor(){
     }
@@ -19,6 +20,9 @@ export class ComplainListComponent implements OnInit {
   }
   getPost(Data: any){
      this.viewSpecific.emit(Data);
+  }
+  Delete(post: Post){
+     this.DeletePost.emit(post);
   }
   
   

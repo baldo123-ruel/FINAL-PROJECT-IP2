@@ -13,6 +13,15 @@
     --font1:'Poppins', sans-serif;
     --font2: 'Quicksand', sans-serif;
 }
+.btn{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family:'Poppins', sans-serif;
+}
+.btn span{
+    font-size: 17px;
+}
 .footer{
     margin-top: 2%;
     padding: 5px;

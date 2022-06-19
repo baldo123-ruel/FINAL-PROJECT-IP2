@@ -16,9 +16,16 @@
             <h4>{{ post.text }}</h4>
         </div>
         <div class="footer">
-            <span class="material-symbols-outlined" id="fav">favorite</span>
+            <span class="material-symbols-outlined" [matMenuTriggerFor]="fav"id="fav">favorite</span>
+            <mat-menu #fav="matMenu" xPosition="before">
+                <button class="btn" mat-menu-item >Underconstructions</button>
+             </mat-menu>
             <span class="material-symbols-outlined" (click)="getPost(post)" id="visi">visibility</span>
-            <span class="material-symbols-outlined" *ngIf="post.userid == currentUser.id" id="del">delete</span>
+            <span class="material-symbols-outlined" [matMenuTriggerFor]="toggle"  *ngIf="post.userid == currentUser.id" id="del">delete</span>
+    
+            <mat-menu #toggle="matMenu" xPosition="before">
+               <button class="btn" mat-menu-item (click)="Delete(post)"><span class="material-symbols-outlined">delete</span> Delete</button>
+            </mat-menu>
         </div>
     </div>
 </div>
