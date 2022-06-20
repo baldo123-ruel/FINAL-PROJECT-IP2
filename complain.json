@@ -38,6 +38,15 @@
       "text": "Paano mag enrool ha evsu?",
       "userType": "Student",
       "id": 1
+    },
+    {
+      "userid": 3,
+      "username": "Ruel",
+      "date": "20-6-2022",
+      "gender": "male",
+      "text": "Paano mag comply for INC ASAP!",
+      "userType": "Student",
+      "id": 2
     }
   ],
   "comments": [
@@ -60,6 +69,46 @@
       "usertype": "Student",
       "gender": "male",
       "id": 2
+    },
+    {
+      "username": "Ruel",
+      "textComment": "sd",
+      "userid": 3,
+      "date": "20-6-2022",
+      "postid": 1,
+      "usertype": "Student",
+      "gender": "male",
+      "id": 3
+    },
+    {
+      "username": "Ruel",
+      "textComment": "sd",
+      "userid": 3,
+      "date": "20-6-2022",
+      "postid": 2,
+      "usertype": "Instructor",
+      "gender": "male",
+      "id": 4
+    },
+    {
+      "username": "Ruel",
+      "textComment": "pakadto ha saso ngan pag yakan ma stop naak pag skuyla haha",
+      "userid": 3,
+      "date": "20-6-2022",
+      "postid": 2,
+      "usertype": "Student",
+      "gender": "male",
+      "id": 5
+    },
+    {
+      "username": "Myra Moralita",
+      "textComment": "sd",
+      "userid": 2,
+      "date": "20-6-2022",
+      "postid": 1,
+      "usertype": "Student",
+      "gender": "female",
+      "id": 6
     }
   ]
 }

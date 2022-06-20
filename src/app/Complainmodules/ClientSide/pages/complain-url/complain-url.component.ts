@@ -68,9 +68,6 @@ export class ComplainURLComponent implements OnInit {
     this.comment.getCommentlist().subscribe((comments) => (this.comments = comments.filter((t) => t.postid == IdCurrent )));
   }
   
-  refresh() {
-     this.comment.getCommentlist().subscribe(data => this.comments = data);
-   }
   ReplyAsStudent(f: NgForm){
       const userID = this.currentUser.id;
       const username = this.currentUser.username;
@@ -94,7 +91,7 @@ export class ComplainURLComponent implements OnInit {
       this.comment.AddComments(comments).subscribe(res=>{
          this.toast.getSuccess("Reply Successfully sent.", "Thank for your response!");
          f.resetForm();
-         this.refresh();
+         this.fetchComments();
       },err=>{
          this.toast.getWarning("Reply Successfully wasn't sent.", "Please try again!");
       })
@@ -124,7 +121,7 @@ export class ComplainURLComponent implements OnInit {
      this.comment.AddComments(comments).subscribe(res=>{
        this.toast.getSuccess("Reply Successfully sent.", "Thank for your response!");
        f.resetForm();
-       this.refresh();
+       this.fetchComments();
      },err=>{
        this.toast.getWarning("Reply Successfully wasn't sent.", "Please try again!");
      })
