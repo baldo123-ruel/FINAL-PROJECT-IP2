@@ -20,8 +20,46 @@
       "email": "bebebaldo75@gmail.com",
       "password": "1234",
       "id": 3
+    },
+    {
+      "username": "New",
+      "gender": "male",
+      "email": "new@gmail.com",
+      "password": "1234",
+      "id": 4
     }
   ],
-  "posts": [],
-  "comments": []
+  "posts": [
+    {
+      "userid": 4,
+      "username": "New",
+      "date": "20-6-2022",
+      "gender": "male",
+      "text": "Paano mag enrool ha evsu?",
+      "userType": "Student",
+      "id": 1
+    }
+  ],
+  "comments": [
+    {
+      "username": "New",
+      "textComment": "sd",
+      "userid": 4,
+      "date": "20-6-2022",
+      "postid": 1,
+      "usertype": "Student",
+      "gender": "male",
+      "id": 1
+    },
+    {
+      "username": "New",
+      "textComment": "pakadto ha saso ngan pag yakan ma stop naak pag skuyla haha",
+      "userid": 4,
+      "date": "20-6-2022",
+      "postid": 1,
+      "usertype": "Student",
+      "gender": "male",
+      "id": 2
+    }
+  ]
 }
