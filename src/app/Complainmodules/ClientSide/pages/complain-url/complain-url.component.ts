@@ -124,9 +124,7 @@ export class ComplainURLComponent implements OnInit {
      this.comment.AddComments(comments).subscribe(res=>{
        this.toast.getSuccess("Reply Successfully sent.", "Thank for your response!");
        f.resetForm();
-       setTimeout(() => {
-        location.reload();
-      }, 1000);
+       this.refresh();
      },err=>{
        this.toast.getWarning("Reply Successfully wasn't sent.", "Please try again!");
      })
